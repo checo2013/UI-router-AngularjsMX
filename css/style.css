@@ -1,0 +1,64 @@
+.navbar{
+	border-radius: 0;
+}
+
+.login{
+	width: 40%;
+	border:1px solid black;
+	border-radius: 5px;
+	padding: 2em;
+	margin: 2em auto;
+}
+
+
+
+/* contenido de las vistas del wizard */
+#form-views{
+	padding: 2em;
+}
+
+/* contenido de todo el wizard */
+#form-container{ 
+	margin-bottom:20px;
+    border-radius:5px; 
+}
+
+/* parte superior del wizard */
+#form-container .page-header{ 
+	background:#3F51B5;
+	color: white; 
+	margin:0; 
+	padding:30px; 
+    border-top-left-radius:5px; 
+    border-top-right-radius:5px; 
+}
+
+/* numeros del boton */
+#status-buttons{  }
+#status-buttons a { 
+	color:#FFF; 
+	display:inline-block; 
+	font-size:12px; 
+	margin-right:10px; 
+	text-align:center; 
+	text-transform:uppercase; 
+}
+#status-buttons a:hover{ 
+	text-decoration:none; 
+}
+/* botones del wizard */
+#status-buttons span  { 
+	background:#080808;
+	display:block;
+	height:30px;
+	margin:0 auto 10px;
+	padding-top:5px;
+	width:30px;
+    border-radius:50%; 
+}
+
+/* clase para estatus activo del wizard */
+#status-buttons a.active span   { background:#00BC8C; }
+
+
+

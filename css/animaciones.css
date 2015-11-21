@@ -1,0 +1,54 @@
+.inicio.ng-enter, .inicio.ng-leave {
+	
+	width: 100%;
+    position:absolute;
+}
+
+.inicio.ng-enter {
+
+    animation: fadeInUp 1s;
+ 
+}
+.inicio.ng-leave {
+
+    animation: fadeOutDown 1s;
+
+}
+
+.paginas.ng-enter, .paginas.ng-leave {
+	
+	width: 100%;
+    position:absolute;
+}
+
+.paginas.ng-enter {
+
+    animation: fadeInLeft 1s;
+ 
+}
+.paginas.ng-leave {
+
+    animation: fadeOutRight 1s;
+
+}
+
+.wizard.ng-enter, .wizard.ng-leave {
+	
+	width: 100%;
+    position:absolute;
+}
+
+.wizard.ng-enter {
+
+    animation: zoomIn 1s;
+ 
+}
+.wizard.ng-leave {
+
+    animation: zoomOut 1s;
+
+}
+
+
+
+
